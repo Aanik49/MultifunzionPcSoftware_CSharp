@@ -1,0 +1,233 @@
+E:\C#Projects\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+E:\C#Projects\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+E:\C#Projects\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.baml
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.g.cs
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\App.g.cs
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.baml
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.baml
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.g.cs
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.baml
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.g.cs
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.baml
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.g.cs
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\Help.baml
+E:\C#Projects\practicemultifunzion\practicemultifunzion\obj\Debug\Help.g.cs
+E:\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+E:\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+E:\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\Help.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\Help.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\App.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.g.cs
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\About.baml
+E:\practicemultifunzion\practicemultifunzion\obj\Debug\About.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\App.g.cs
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.baml
+F:\New folder\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.baml
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\App.g.cs
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+C:\Users\Nurun Nahar\Downloads\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.baml
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\App.g.cs
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+E:\practicemultifunzionNEW\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+C:\Users\Nurun Nahar\Desktop\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+C:\Users\Nurun Nahar\Desktop\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+C:\Users\Nurun Nahar\Desktop\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.baml
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\About.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Help.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\ImageSave.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Image_slide.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\MainWindow.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\NotePad.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\Registration.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\SnapShot.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\App.g.cs
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+E:\PracticemultifunzionLast\PracticemultifunzionLast\practicemultifunzionlast\practicemultifunzion\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+E:\Multifunzion\Source Code\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+E:\Multifunzion\Source Code\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+E:\Multifunzion\Source Code\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\About.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\Help.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\ImageConvert.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\ImageSave.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\Image_slide.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\MainWindow.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\NotePad.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\Registration.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\SnapShot.baml
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\About.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\Help.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\ImageSave.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\Image_slide.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\MainWindow.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\NotePad.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\Registration.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\SnapShot.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\App.g.cs
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+E:\Multifunzion\Source Code\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+E:\multi without database\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+E:\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+E:\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+F:\Study\multi without database\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.pdb
+F:\Study\multi without database\practicemultifunzion\bin\Debug\practicemultifunzion.exe
+F:\Study\multi without database\practicemultifunzion\bin\Debug\practicemultifunzion.pdb
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.csprojResolveAssemblyReference.cache
+F:\Study\multi without database\practicemultifunzion\obj\Debug\About.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\Help.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\ImageConvert.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\ImageSave.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\Image_slide.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\MainWindow.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\NotePad.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\Registration.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\SnapShot.baml
+F:\Study\multi without database\practicemultifunzion\obj\Debug\About.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\Help.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\ImageConvert.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\ImageSave.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\Image_slide.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\MainWindow.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\NotePad.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\Registration.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\SnapShot.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\App.g.cs
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion_MarkupCompile.cache
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.g.resources
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.Properties.Resources.resources
+F:\Study\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.csproj.GenerateResource.Cache
+F:\Study\c# project\multi without database\practicemultifunzion\bin\Debug\practicemultifunzion.exe.config
+F:\Study\c# project\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.exe
+F:\Study\c# project\multi without database\practicemultifunzion\obj\Debug\practicemultifunzion.pdb

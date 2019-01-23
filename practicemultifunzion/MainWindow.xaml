@@ -1,0 +1,278 @@
+﻿<Window x:Class="practicemultifunzion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Icon="images\Christmas_Blue_Star_Ornament_PNG_Picture.png" Height="590" Width="840" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" BorderBrush="#FF292525" BorderThickness="1" ResizeMode="NoResize">
+    
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFF1F1F1"/>
+            <GradientStop Color="White" Offset="0.465"/>
+            <GradientStop Color="#FFF1F1F1" Offset="0.969"/>
+            <GradientStop Color="#FFF3F3F3" Offset="0.909"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    
+    <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown" Loaded="active_windows"> <!--For Drag and move window-->
+        <!--Remove MouseEnter Effect-->
+        <Grid.Resources>
+            <Style x:Key="MyButton" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border"  BorderThickness="0" Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Opacity" Value="0.75"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            
+            <!--For Button Foreground Change-->
+            <Style x:Key="MyButton2" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border"  BorderThickness="0" Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+        
+        <!--Define Column and Row-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150*"/>                    
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="136*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="84*"/>
+        </Grid.RowDefinitions>
+        <!--Ractangle Design-->
+        <Rectangle Grid.Column="1" Grid.Row="1" Fill="#FF2E577A"/>
+        <Rectangle Grid.Column="2" Grid.Row="1" Fill="#FF38658B"/>
+        <Rectangle Grid.Column="3" Grid.Row="1" Fill="#FF4A7DA8"/>
+        <Rectangle Grid.Column="4" Grid.Row="1" Fill="#FF5891C1"/>
+        <Rectangle Grid.Column="5" Grid.Row="1" Fill="#FF5C9DD3"/>
+        <Rectangle Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="5" Fill="#FF89C577"  Margin="0,0,0,50">
+        </Rectangle>
+        
+        <!--All Options-->
+        <Button x:Name="btn_home"  ToolTip="Home" Style="{StaticResource MyButton2}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" Grid.RowSpan="2" BorderBrush="{x:Null}" MouseEnter="btn_home_MouseEnter">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\20151130142721.png" Width="46"></Image>
+                <Label Content="HOME"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="103" Margin="0,15,0,0"></Label>
+            </StackPanel>
+        </Button>
+        <Button Style="{StaticResource MyButton}" MouseEnter="Feature_MouseEnter" Margin="0,0.1,0,0" Foreground="White" FontSize="13" FontFamily="Yu Gothic Light" FontWeight="SemiBold" ToolTip="Features" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" BorderBrush="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\20151129144930.png" Height="46" Width="35" ></Image>
+                <Label  Content="  FEATURES" Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="86" Height="32"></Label>
+                <Image Source="images\monotone_arrow_right.png" Height="45" Width="25"></Image>
+            </StackPanel>
+        </Button>  
+        <Button Style="{StaticResource MyButton}" MouseEnter="Notification_MouseEnter" ToolTip="Notifications" Margin="0,0.1,0,0" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" Background="#FF423939" FontSize="13" FontFamily="Yu Gothic Light" FontWeight="SemiBold" BorderBrush="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\20151130140836.png" Width="45"></Image>
+                <Label  Content="NOTIFICATION" Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="32" Width="103"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_folder" Style="{StaticResource MyButton}" ToolTip="Folder" Grid.Column="0" Grid.Row="4" Margin="0,0.1,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" BorderBrush="{x:Null}" MouseEnter="btn_folder_MouseEnter">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\20151129151655.png" Width="41"></Image>
+                <Label  Content="FOLDER" Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="30" Width="107"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_settings1" Style="{StaticResource MyButton}" ToolTip="Settings" Grid.Column="0" Grid.Row="5" Margin="0,0.1,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" BorderBrush="{x:Null}" MouseEnter="btn_settings1_MouseEnter">
+            <StackPanel Orientation="Horizontal">
+                 <Image Source="images\20151129151350.png" Width="43"></Image>
+            <Label Content="SETTINGS" Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="32" Width="82"></Label>
+                <Image Source="images\monotone_arrow_right.png" Width="23" Height="38" />
+            </StackPanel>         
+        </Button>
+        <Button x:Name="btn_about" Style="{StaticResource MyButton}" ToolTip="About" Grid.Row="6" Margin="0,0.1,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" MouseEnter="btn_about_MouseEnter" BorderBrush="{x:Null}" Click="btn_about_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\20151130140544.png" Width="40.5"></Image>
+                <Label  Content=" ABOUT"  Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="35" Width="105"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_exit2" Style="{StaticResource MyButton}" ToolTip="Exit" Grid.Column="0" Grid.Row="7" Margin="0,0.1,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" MouseEnter="btn_exit2_MouseEnter" BorderBrush="{x:Null}" Click="btn_exit2_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\Delete_remove_close_exit_trash.png" Width="43" Height="37"></Image>
+                <Label  Content="EXIT"  Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="34" Width="102"></Label>
+            </StackPanel>
+        </Button>
+        
+        <Label Grid.Column="2" HorizontalAlignment="Center" Width="316" Margin="68,10,17,10" Grid.ColumnSpan="3" >
+            <TextBlock FontSize="25" FontWeight="SemiBold" Foreground="#FF514141" FontFamily="Verdana" Width="306" Height="32">Multifunzion<InlineUIContainer>
+        			<Label Content="all in one software" Foreground="#FF6368D1" FontWeight="Thin" FontSize="13" Height="29" Width="132"/>
+        		</InlineUIContainer></TextBlock>
+        </Label>
+        
+<!--For Rotating Image-->
+        <Image Name="RotateImg" Source="images\Christmas_Blue_Star_Ornament_PNG_Picture.png" HorizontalAlignment="Right" Height="56" VerticalAlignment="Top" Width="56" Margin="0,7,57,0" Grid.Column="2" />
+      <!--Exit and Minimize-->
+        <Button Name="btn_exit" ToolTip="Exit" Grid.Column="5"  HorizontalAlignment="Right"  Background="#FFF1F1F1" Style="{StaticResource MyButton}" Click="btn_exit_Click" Margin="0,10,0,26" Width="40" MouseEnter="btn_exit_MouseEnter" >
+            <Image Source="images\074499-simple-red-glossy-icon-alphanumeric-x-styled.png" Height="33" Width="40"></Image>
+        </Button>
+        <Button Name="btn_minimize" ToolTip="Minimize" Grid.Column="5"   Background="#FFF1F1F1" Style="{StaticResource MyButton}" Margin="79,18,0,26" HorizontalAlignment="Left" Width="24" Click="btn_minimize_Click" MouseEnter="btn_minimize_MouseEnter" >
+            <Image Source="images\003003-simple-red-glossy-icon-media-a-media292-minus3.png" Height="14" Width="20" ></Image>
+        </Button>
+
+        <!--Button (Features) In Main Window-->
+        <Button x:Name="btn_SnapShot" Style="{StaticResource MyButton}" Grid.Column="2" HorizontalAlignment="Left" Margin="24,50,0,0" Grid.Row="3" VerticalAlignment="Top" Width="170" Grid.ColumnSpan="2" Height="165" Grid.RowSpan="3" Click="btn_SnapShot_Click" MouseEnter="btn_SnapShot_MouseEnter" Visibility="Hidden">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1F1F1" Offset="0"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.228"/>
+                    <GradientStop Color="#FFE8EEED" Offset="0.992"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.787"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <StackPanel Orientation="Vertical">
+                <Image Source="images\20151129151100.png"  Height="66" Width="69"/>
+                <Label Content="Screen Capture" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="Bold"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_NotePad" Style="{StaticResource MyButton}" Grid.ColumnSpan="2" Grid.Column="3" HorizontalAlignment="Left" Margin="70,50,0,0" Grid.Row="3" VerticalAlignment="Top" Width="170" Height="165" Grid.RowSpan="3" Click="btn_NotePad_Click" MouseEnter="btn_NotePad_MouseEnter" Visibility="Hidden">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1F1F1" Offset="0"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.228"/>
+                    <GradientStop Color="#FFE8EEED" Offset="0.992"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.787"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <StackPanel Orientation="Vertical">
+                <Image Source="images\256.png" Height="66" Width="65" />
+                <Label Content="NotePad" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="Bold" Height="29"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_ImageSlide" Style="{StaticResource MyButton}" Grid.Column="4" HorizontalAlignment="Left" Margin="103,50,0,0" Grid.Row="3" VerticalAlignment="Top" Width="170" Grid.ColumnSpan="2" Height="165" Grid.RowSpan="3" Click="btn_ImageSlide_Click" MouseEnter="btn_ImageSlide_MouseEnter" Visibility="Hidden">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1F1F1" Offset="0"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.228"/>
+                    <GradientStop Color="#FFE8EEED" Offset="0.992"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.787"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <StackPanel Orientation="Vertical">
+                <Image Source="images\20151129152237.png" Height="66" Width="69" />
+                <Label Content="ImageSlide Show" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="Bold"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_imgconvert" Style="{StaticResource MyButton}" Grid.Column="1" HorizontalAlignment="Left" Margin="3,50,0,0" Grid.Row="3" VerticalAlignment="Top" Width="170" Height="165" Grid.RowSpan="3" Grid.ColumnSpan="2" Click="btn_imgconvert_Click" MouseEnter="btn_imgconvert_MouseEnter" Visibility="Hidden">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1F1F1" Offset="0"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.228"/>
+                    <GradientStop Color="#FFE8EEED" Offset="0.992"/>
+                    <GradientStop Color="#FFF1F1F1" Offset="0.787"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <StackPanel Orientation="Vertical">
+                <Image Source="images\20151129150629.png" Height="64" Width="65" />
+                <Label Content="Image Convert" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="Bold"/>
+            </StackPanel>
+        </Button>
+        
+        <!--Hidden Features-->
+        <Button Name="ImageConvert" Style="{StaticResource MyButton2}"  ToolTip="ImageConvert"  Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Top" Height="68" Background="#FF191616"  Click="ImageConvert_Click" MouseEnter="ImageConvert_MouseEnter" BorderBrush="{x:Null}" Visibility="Hidden">
+            <StackPanel Orientation="Horizontal">
+                    <Image Name="im1" Source="images\20151129145022.png" Height="37" Width="44" Margin="0,0,0,0"/>
+                <Label Name="lb1" Content="Image Convert" Foreground="#FFFBF4F4" FontSize="14" FontFamily="Yu Mincho Light" FontWeight="SemiBold" />
+            </StackPanel>
+        </Button>
+        <Button Name="SnapShot" Style="{StaticResource MyButton2}" ToolTip="SnapShot"  Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,67,0,0" Grid.Row="2" VerticalAlignment="Top"  Height="67" Grid.RowSpan="2"  Background="#FF191616" MouseEnter="SnapShot_MouseEnter" BorderBrush="{x:Null}" Click="SnapShot_Click" Visibility="Hidden">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="im2" Source="images\20151129145115.png" Height="34" Width="38" Margin="0,0,0,0"/>
+                <Label Name="lb2" Content="ScreenCapture" Foreground="#FFFBF4F4" FontSize="14" FontFamily="Yu Mincho Light" FontWeight="SemiBold" Width="97" />
+            </StackPanel>
+        </Button>
+        <Button Name="NotePad" Style="{StaticResource MyButton2}" ToolTip="NotePad" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,49,0,0" Grid.Row="3" VerticalAlignment="Top"  Height="68" Grid.RowSpan="2" Background="#FF191616" MouseEnter="NotePad_MouseEnter" BorderBrush="{x:Null}" Click="NotePad_Click" Visibility="Hidden">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="im3" Source="images\20151129150211.png" Height="38" Width="50" Margin="-36,0,0,0"/>
+                <Label Name="lb3" Content="NotePad" Foreground="#FFFBF4F4" FontSize="14" FontFamily="Yu Mincho Light" FontWeight="SemiBold" />
+            </StackPanel>
+        </Button>
+        <Button Name="ImageSlider" Style="{StaticResource MyButton2}" ToolTip="ImageSlide" HorizontalAlignment="Stretch" Margin="0,29,0,0" Grid.Row="4" VerticalAlignment="Top"  Height="66" Grid.RowSpan="2" Background="#FF191616" Grid.Column="1" MouseEnter="ImageSlider_MouseEnter" BorderBrush="{x:Null}" Visibility="Hidden" Click="ImageSlider_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="im4" Source="images\20151129150834.png" Height="37" Width="48" Margin="-10.5,0,0,0"/>
+                <Label Name="lb4" Content="Image Slider" Foreground="#FFFBF4F4" FontSize="14" FontFamily="Yu Mincho Light" FontWeight="SemiBold" />
+            </StackPanel>
+        </Button>
+        <Label Name="Blank" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="76" Background="#FF191616" Grid.Column="1" Margin="0,10,0,0" Grid.Row="5" MouseEnter="BlankLable_MouseEnter" Grid.RowSpan="2" Visibility="Hidden" />
+     
+        <!--Only Text Show-->
+        <Label x:Name="txt_features" Content="All features of this Application" FontSize="20" FontWeight="SemiBold" Foreground="#FF514141" FontFamily="Sitka Small" Grid.Column="2" HorizontalAlignment="Left" Margin="0,23,0,0" Grid.Row="2" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="340" Height="47" MouseEnter="txt_features_MouseEnter"/>
+        <Label Content="(Use them for your specific purposes)" FontSize="11.5" FontWeight="Normal" Foreground="White" FontFamily="Verdana" Grid.Column="3" HorizontalAlignment="Left" Margin="0,57,0,0" Grid.Row="2" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="258" Height="27"/>
+
+        <!--Button (Settings) Hidden-->
+        <Menu Name="mnu_shortcut" Grid.Column="1" HorizontalAlignment="Left" Height="254" Grid.Row="5" VerticalAlignment="Top" Width="150"  Foreground="White" Grid.RowSpan="3" Background="#FF191616" Visibility="Hidden" >
+            <StackPanel Orientation="Vertical" Background="#FF191616" Height="254" Width="143">
+            <MenuItem x:Name="mnu_imgConvert" IsCheckable="True" Checked="mnu_imgConvert_Checked_1" FontSize="14" FontWeight="Bold" Header="Image Convert" FontFamily="Yu Gothic Light" Background="#FF191616" Height="50" Margin="0,0,-32,0" BorderBrush="{x:Null}" Unchecked="mnu_imgConvert_UnChecked"/>
+                <MenuItem x:Name="mnu_ScreenCapture" Header="ScreenCapture" IsChecked="False" IsCheckable="True" Checked="mnu_ScreenCapture_Checked_1" Background="#FF191616" FontFamily="Yu Gothic Light" FontSize="14" FontWeight="Bold" Height="50" Margin="0,0,-32,0" BorderBrush="{x:Null}" Unchecked="mnu_ScreenCapture_UnChecked"/>
+                <MenuItem x:Name="mnu_NotePad" Header="NotePad" IsChecked="False" IsCheckable="True" Background="#FF191616" FontFamily="Yu Gothic Light" FontSize="14" FontWeight="Bold" Height="50" Margin="0,0,-32,0" BorderBrush="{x:Null}" Checked="mnu_NotePad_Checked" Unchecked="mnu_NotePad_UnChecked"/>
+                <MenuItem x:Name="mnu_ImageSlide" Header="Image Slide" IsChecked="False" IsCheckable="True" Background="#FF191616" FontFamily="Yu Gothic Light" FontSize="14" FontWeight="Bold" Height="50" Margin="0,0,-32,0" BorderBrush="{x:Null}" Checked="mnu_ImageSlide_Checked" Unchecked="mnu_ImageSlide_UnChecked"/>
+            </StackPanel>
+        </Menu>
+        <Button x:Name="btn_register" Style="{StaticResource MyButton}" Background="#FF89C577" Foreground="White" FontSize="14" Grid.Column="4" HorizontalAlignment="Left" Margin="123,16,0,0" Grid.Row="2" VerticalAlignment="Top" Width="110" Height="22" Click="btn_register_Click" MouseEnter="btn_register_MouseEnter" Grid.ColumnSpan="2" ToolTip="Registration" IsEnabled="False"/>
+
+        <Label x:Name="lbl_register"  Grid.Column="4" Height="123" HorizontalAlignment="Left" Margin="49,31,0,0" Grid.Row="6" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.RowSpan="2" Width="218" Background="#FFEEEEEE" Visibility="Hidden">
+            
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Width="221">
+                    <Label Content="User Name" FontSize="12" FontFamily="Verdana" FontWeight="SemiBold" Foreground="#FF403939"/>
+                    <TextBox x:Name="txt_name" TextWrapping="Wrap" Width="124" Height="20" FontSize="12" FontFamily="Verdana" FontWeight="SemiBold"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="214">
+                    <Label Content="Email Id    " FontSize="12" FontFamily="Verdana" FontWeight="SemiBold" Foreground="#FF403939"/>
+                    <TextBox x:Name="txt_email" TextWrapping="Wrap" Width="125" Height="20" FontSize="12" FontFamily="Verdana" FontWeight="SemiBold"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Phone No. " FontSize="12" FontFamily="Verdana" FontWeight="SemiBold" Foreground="#FF403939"/>
+                    <TextBox x:Name="txt_phone" TextWrapping="Wrap" Width="125" Height="20" FontSize="12" FontFamily="Verdana" FontWeight="SemiBold"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="205">
+                    <Button Style="{StaticResource MyButton}" x:Name="btn_submit" Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="Bold" Content="Submit"  Width="102" Height="27" Click="btn_submit_Click" BorderBrush="{x:Null}">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF687E80" Offset="1"/>
+                                <GradientStop Color="#FFBAC6C7"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button Style="{StaticResource MyButton}" x:Name="btn_cancel" Content="Cancel" Click="btn_cancel_Click" Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="Bold" Width="102" Height="27" Margin="2">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFBAC6C7" Offset="0"/>
+                                <GradientStop Color="#FF687E80" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackPanel>
+            </StackPanel>
+        </Label>
+        <TextBlock x:Name="txtblk_username" Grid.Column="5" HorizontalAlignment="Left" Margin="0,51,0,0" Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Top" Height="68" Width="136" Foreground="#FFFBF2F2" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>

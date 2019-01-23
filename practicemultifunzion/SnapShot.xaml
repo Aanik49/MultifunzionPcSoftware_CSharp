@@ -1,0 +1,116 @@
+﻿<Window x:Class="practicemultifunzion.SnapShot"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="SnapShot" Icon="images\Christmas_Blue_Star_Ornament_PNG_Picture.png" Height="590" Width="840" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="False" BorderBrush="#FF292525" BorderThickness="1" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFF1F1F1"/>
+            <GradientStop Color="White" Offset="0.583"/>
+            <GradientStop Color="#FFF1F1F1" Offset="0.87"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <Grid.Resources>
+            <Style x:Key="MyButton" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border" BorderThickness="0" Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Opacity" Value="0.8" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="152*"/>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="136*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="101*"/>
+            <RowDefinition Height="96*"/>
+            <RowDefinition Height="108*"/>
+            <RowDefinition Height="97*"/>
+            <RowDefinition Height="93*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="1" Grid.Row="1" Fill="#FF2E577A"/>
+        <Rectangle Grid.Column="2" Grid.Row="1" Fill="#FF38658B"/>
+        <Rectangle Grid.Column="3" Grid.Row="1" Fill="#FF4A7DA8"/>
+        <Rectangle Grid.Column="4" Grid.Row="1" Fill="#FF5891C1"/>
+        <Rectangle Grid.Column="5" Grid.Row="1" Fill="#FF5C9DD3"/>
+        <Rectangle Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="5" Fill="#FF89C577" Margin="0,0,0,26" Grid.RowSpan="2"/>
+        <Label Grid.Column="2" HorizontalAlignment="Center" Width="316" Margin="68,10,17,10" Grid.ColumnSpan="3" >
+            <TextBlock FontSize="25" FontWeight="SemiBold" Foreground="#FF514141" FontFamily="Verdana" Width="304" Height="32">Multifunzion<InlineUIContainer>
+        			<Label Content="all in one software" Foreground="#FF6368D1" FontWeight="Thin" FontSize="13" Height="29" Width="132"/>
+        		</InlineUIContainer></TextBlock>
+        </Label>
+        <Image Name="RotateImg" Source="images\Christmas_Blue_Star_Ornament_PNG_Picture.png" HorizontalAlignment="Right" Height="56" VerticalAlignment="Top" Width="56" Margin="0,8,56,0" Grid.Column="2" />
+        <Button Name="btn_exit" Style="{StaticResource MyButton}"  ToolTip="Exit" Grid.Column="5"  HorizontalAlignment="Right"  Background="#FFF1F1F1"  Click="btn_exit_Click" Margin="0,6,3,19" Width="35" >
+            <Image Source="images\074499-simple-red-glossy-icon-alphanumeric-x-styled.png" Height="44" Width="35"></Image>
+        </Button>
+        <Button Name="btn_minimize" ToolTip="Minimize" Grid.Column="5"  HorizontalAlignment="Right" Background="#FFF1F1F1" Style="{StaticResource MyButton}" Margin="0,15,35,21"  Width="24" Click="btn_minimize_Click" >
+            <Image Source="images\003003-simple-red-glossy-icon-media-a-media292-minus3.png" Height="14" Width="36" ></Image>
+        </Button>
+        <Button x:Name="btn_home" ToolTip="Home" Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" Click="btn_home_Click" Grid.RowSpan="3">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\20151130142721.png" Width="40"></Image>
+                <Label Content=" HOME"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="101" Margin="0,15,0,0"></Label>
+            </StackPanel>
+        </Button>
+        <Button Name="captureimage" Style="{StaticResource MyButton}" ToolTip="Capture Image" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" FontSize="13" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Click="captureimage_Click" Margin="0,9.1,0,0" Grid.RowSpan="2">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\Photo-Video-Slr-Camera2-Filled-icon.png" Width="40" Margin="0,0,0,0" Height="35"/>
+                <Label Content="CAPTURE"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="108" Margin="0,15,0,0" Height="42"/>
+            </StackPanel>
+        </Button>
+        <Button Name="saveimage" Style="{StaticResource MyButton}" ToolTip="Save Image" Margin="0,0.032,0,0" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="#FF423939" Height="96" Click="saveimage_Click" IsEnabled="False">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\save-256-000000.png" Width="32" Height="34"/>
+                <Label Content="SAVE IMAGE" Foreground="White"  FontSize="13.3" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="107" Margin="0,15,0,0" Height="42"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_exit2"  Style="{StaticResource MyButton}" ToolTip="Exit" Margin="0,0.1,0,0" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" Click="btn_exit2_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\Delete_remove_close_exit_trash.png" Width="32" Height="36"></Image>
+                <Label Content=" EXIT" Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="32" Width="102"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_About" Style="{StaticResource MyButton}" ToolTip="About" Margin="0,0.1,0,0" Grid.Row="6" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="#FF423939" Height="97" Click="btn_About_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\20151130140544.png" Width="35"></Image>
+                <Label  Content=" ABOUT"  Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="34" Width="105"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_snapshot" Style="{StaticResource MyButton}" ToolTip="Help" Margin="0,0.1,0,0" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" Click="btn_snapshot_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="images\20151130140744.png" Width="38"></Image>
+                <Label  Content=" HELP"  Foreground="White" FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Height="34" Width="106"></Label>
+            </StackPanel>
+        </Button>
+        <WindowsFormsHost HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="5" Margin="35,93,23,74" Grid.RowSpan="5">
+            <wf:PictureBox x:Name="pictureBox1" SizeMode="Zoom" />
+        </WindowsFormsHost>
+        <Label Content="Screen Capture Or SnapShot" FontSize="16" FontWeight="SemiBold" Foreground="#FF514141" FontFamily="Verdana" Grid.Column="2" HorizontalAlignment="Left" Margin="42,5,0,0" Grid.Row="3" VerticalAlignment="Top" Width="275" Height="40" Grid.ColumnSpan="3"/>
+        <Label Content="(Capture then save in .jpg)" FontSize="11" FontWeight="Normal" Foreground="White" FontFamily="Verdana" Grid.Column="3" HorizontalAlignment="Left" Margin="73,35,0,0" Grid.Row="3" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Height="23"/>
+        <Label Content="/* Capture Image */" FontSize="14" FontWeight="Normal" Foreground="#FF9CBB6F" FontFamily="Verdana" Grid.Column="4" HorizontalAlignment="Left" Margin="101,56,0,0" Grid.Row="7" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="162"/>
+        <TextBlock x:Name="txt_Help" Text="1. Capture Screen by clicking left side 'CAPTURE' button .                   
+            2. Now save the image by clicking 'SAVE IMAGE' button.                     
+             3. The image will be saved in the location where you have saved ." FontSize="15" FontWeight="SemiBold" Foreground="Black" FontFamily="Tahoma" Grid.Column="1" HorizontalAlignment="Left" Margin="58,0,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="183" Grid.RowSpan="2" Width="251" Visibility="Hidden">
+
+        </TextBlock>
+    </Grid>
+</Window>

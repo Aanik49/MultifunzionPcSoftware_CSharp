@@ -1,0 +1,125 @@
+﻿<Window x:Class="practicemultifunzion.Image_slide"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="Image_slide" Icon="images\Christmas_Blue_Star_Ornament_PNG_Picture.png" Height="590" Width="840" Loaded="load_window" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="False" BorderBrush="#FF292525" BorderThickness="1" ResizeMode="NoResize" >
+
+
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFF1F1F1"/>
+            <GradientStop Color="White" Offset="0.583"/>
+            <GradientStop Color="#FFF1F1F1" Offset="0.87"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid  MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <Grid.Resources>
+            <Style x:Key="MyButton" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border" BorderThickness="0" Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Opacity" Value="0.8" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="146*"/>
+            <ColumnDefinition Width="128*"/>
+            <ColumnDefinition Width="137*"/>
+            <ColumnDefinition Width="135*"/>
+            <ColumnDefinition Width="136*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="1" Grid.Row="1" Fill="#FF2E577A"/>
+        <Rectangle Grid.Column="2" Grid.Row="1" Fill="#FF38658B"/>
+        <Rectangle Grid.Column="3" Grid.Row="1" Fill="#FF4A7DA8"/>
+        <Rectangle Grid.Column="4" Grid.Row="1" Fill="#FF5891C1"/>
+        <Rectangle Grid.Column="5" Grid.Row="1" Fill="#FF5C9DD3"/>
+        <Rectangle Grid.Column="1" Grid.Row="2" Fill="#FF89C577" Grid.ColumnSpan="5"/>
+        <Image Name="RotateImg" Source="images\Christmas_Blue_Star_Ornament_PNG_Picture.png" HorizontalAlignment="Right" Height="56" VerticalAlignment="Top" Width="56" Margin="0,8,59,0" Grid.Column="2" />
+        <Label Grid.Column="2" HorizontalAlignment="Center" Width="316" Margin="70,10,14,10" Grid.ColumnSpan="3" >
+            <TextBlock FontSize="25" FontWeight="SemiBold" Foreground="#FF514141" FontFamily="Verdana" Width="304" Height="32">Multifunzion<InlineUIContainer>
+        			<Label Content="all in one software" Foreground="#FF6368D1" FontWeight="Thin" FontSize="13" Height="29" Width="132"/>
+        		</InlineUIContainer></TextBlock>
+        </Label>
+        <Button Name="btn_exit" Style="{StaticResource MyButton}"  ToolTip="Exit" Grid.Column="5"  HorizontalAlignment="Right"  Background="#FFF1F1F1"  Click="btn_exit_Click" Margin="0,6,3,19" Width="35" BorderBrush="{x:Null}" >
+            <Image Source="images\074499-simple-red-glossy-icon-alphanumeric-x-styled.png" Height="44" Width="35"></Image>
+        </Button>
+        <Button Name="btn_minimize" ToolTip="Minimize" Grid.Column="5" Style="{StaticResource MyButton}"   HorizontalAlignment="Right" Background="#FFF1F1F1"  Margin="0,15,35,21"  Width="24" Click="btn_minimize_Click" BorderBrush="{x:Null}" >
+            <Image Source="images\003003-simple-red-glossy-icon-media-a-media292-minus3.png" Height="14" Width="36" ></Image>
+        </Button>
+        <Label Content="Image Slide Show" FontSize="16" FontWeight="SemiBold" Foreground="#FF514141" FontFamily="Verdana" Grid.Column="2" HorizontalAlignment="Left" Margin="70,14,0,0" Grid.Row="2" VerticalAlignment="Top" Width="185" Height="40" Grid.ColumnSpan="2"/>
+        <Label Content="(Select image folder and play)" FontSize="11" FontWeight="Normal" Foreground="White" FontFamily="Verdana" Grid.Column="3" HorizontalAlignment="Left" Margin="70,43,0,0" Grid.Row="2" VerticalAlignment="Top" Width="193" Height="30" Grid.ColumnSpan="2"/>
+      
+        <Button x:Name="btn_home" ToolTip="Home" Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF423939" Click="btn_home_Click" Grid.RowSpan="2">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\20151130142721.png" Width="40"></Image>
+                <Label Content=" HOME"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="101" Margin="0,15,0,0"></Label>
+            </StackPanel>
+        </Button>
+ <WindowsFormsHost HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,51" Grid.Row="3" Grid.Column="1" Grid.RowSpan="5" Grid.ColumnSpan="5">
+            <wf:PictureBox x:Name="pictureBox1" SizeMode="Zoom" />
+        </WindowsFormsHost>
+        <Button x:Name="btn_imgslide_stop" ToolTip="Start or Pause Image Slide" Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_imgslide_stop_click" Grid.Row="4" Background="#FF423939" >
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\85501-200.png" Width="51" Margin="0,12,0,3"></Image>
+                <Label Content="START/PAUSE"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="106" Margin="0,15,0,0"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_pre" ToolTip="Previous Image" Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_pre_click" Grid.Row="3" Background="#FF423939">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\Arrow_Left_90°.svg.png" Width="54" Margin="0,11,0,4"></Image>
+                <Label Content="PREVIOUS"   Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="105" Margin="0,15,0,0"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_next" ToolTip="Next Image"  Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_next_click" Grid.Row="5" Background="#FF423939" Margin="0,.1,0,0">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\down_right-256.png" Width="55" Margin="0,3,0,7"></Image>
+                <Label  Content="NEXT"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="100" Margin="0,10"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_openfolder" ToolTip="Open Folder" Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_open_click" Grid.Row="2" Background="#FF423939" Margin="0,.1,0,0" >
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\picture.png" Width="47" Margin="0,5"></Image>
+                <Label Content="OPEN FOLDER"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="106" Margin="0,10"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_slide_exit" ToolTip="Exit"  Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_slide_exit_click" Grid.Row="7" Background="#FF423939">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\Delete_remove_close_exit_trash.png" Width="54" Margin="0,10"/>
+                <Label Content="EXIT"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="111" Margin="0,10"></Label>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_help" ToolTip="Help" Style="{StaticResource MyButton}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="6" Background="#FF423939" Click="btn_helpImageSlide">
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Image Source="images\20151130140744.png" Width="53" Margin="0,5"/>
+                <Label Content="HELP"  Foreground="White"  FontSize="14" FontFamily="Yu Gothic Light" FontWeight="SemiBold" Width="107" Margin="0,10,0,0"></Label>
+            </StackPanel>
+        </Button>
+        <Label Content="/* Load image and play image show slide */" FontSize="14" FontWeight="Normal" Foreground="#FF9CBB6F" FontFamily="Verdana" Grid.Column="3" HorizontalAlignment="Left" Margin="70,47,0,0" Grid.Row="7" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="338"/>
+
+        <TextBlock x:Name="txt_Help" Text="1. Load a folder that containing images from your any computer drive by clicking left side 'OPEN FOLDER' button .                             
+                          2. Now Play image slide show by clicking 'START/PAUSE' button.                                                    
+                                              3. You can show next or previous images by clicking 'NEXT' and 'PREVIOUS' button." FontSize="15" FontWeight="SemiBold" Foreground="Black" FontFamily="Tahoma" Grid.Column="1" HorizontalAlignment="Left" Margin="58,0,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Height="183" Grid.RowSpan="2" Width="251" Visibility="Hidden" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>
